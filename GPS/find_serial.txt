@@ -1,0 +1,4 @@
+wmic path Win32_SerialPort Where "Caption LIKE '%Teensy%'" Get DeviceID
+
+
+ls /dev/tty.*
